@@ -1,0 +1,40 @@
+html, body {
+    font-family: 'Roboto';
+    color: #2C2D39;
+}
+
+.main-content {
+	width: 100%;
+    background-color: #EAECF2;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+h2 {
+    font-size: 18px;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-weight: 400;
+}
+
+h4 {
+    font-size: 14px;
+    color: #BDC1CE;
+}
+
+@media only screen and (min-width: 374px) {
+	
+	.main-content {
+        padding: 15px;
+    }
+}
+
+@media only screen and (min-width: 767px) {
+	
+	.main-content {
+        padding: 20px;
+    }
+}

@@ -1,0 +1,177 @@
+.manage .overall {
+    text-align: center;
+    background-color: #fff;
+    margin-bottom: 15px;
+    padding: 2em;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.manage .overall div {
+    display: inline-block;
+    width: 40%;
+}
+
+.manage h3 {
+    margin: 10px 0;
+}
+
+
+.manage .overall img {
+    width: 40px;
+}
+
+.manage .overall div:nth-child(2n+1) {
+   float: left;
+}
+
+.manage .overall div:nth-child(2n) {
+   float: right;
+}
+
+.manage .overall div:nth-child(1),
+.manage .overall div:nth-child(2){
+    margin-bottom: 40px;
+}
+
+.manage .inventory .stat {
+    text-align: center;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 2em;
+    box-sizing: border-box;
+}
+
+.manage .inventory .stat div {
+    display: inline-block;
+}
+
+.manage .inventory .stat div:nth-child(1) {
+    float: left;
+}
+
+.manage .inventory .stat div:nth-child(3) {
+    float: right;
+}
+
+.manage .weekly {
+    width: 680px;
+    background-color: #fff;
+    margin-bottom: 15px;
+    padding: 2em;
+    border-radius: 10px;
+}
+
+.manage .weekly h3 {
+    display: inline-block;
+    margin: 0;
+}
+
+.manage .weekly .labels {
+   float: right;
+}
+
+.manage .weekly h4 {
+    display: inline-block;
+    margin-left: 1em;
+ }
+
+ .manage .weekly h4 img {
+    width: 40px;
+    margin-right: .5em;
+ }
+
+ .manage .weekly .graph {
+    width: 680px;
+    margin-top: 1em;
+ }
+
+ .rankings .sales header h2 {
+     display: inline-block;
+     margin: 0;
+ }
+
+ .rankings .sales {
+     margin-bottom: 15px;
+ }
+
+ .rankings .sales header h4 {
+     float: right;
+     margin-top: .2em;
+ }
+
+ .rankings .sales .card {
+    margin-top: 15px;
+    padding: 2em;
+	background-color: #fff;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.rankings .sales .card li {
+	float: left;
+}
+
+.rankings .sales .card li:first-of-type h4 {
+	margin-top: 1em;
+	margin-right: .5em;
+}
+
+.rankings .sales .card li img {
+	height: 42px;
+}
+
+.rankings .sales .card h3 {
+	margin: 0;
+}
+
+.rankings .sales .card li:last-of-type {
+    float: right;
+    color: #5F88EB;
+    font-weight: 900;
+    margin: .8em 0;
+}
+
+.rankings .client {
+	background-color: #fff;
+	padding: 2em;
+	border-radius: 10px;
+}
+
+.rankings .client header h2 {
+    display: inline-block;
+}
+
+.rankings .client header h4 {
+    float: right;
+    margin: .2em;
+}
+
+.rankings .client li {
+    display: inline-block;
+}
+
+.rankings .client .card {
+    overflow: hidden;
+    margin: 2em 0;
+}
+
+.rankings .client .card li {
+    float: left;
+}
+
+.rankings .client .card li:last-of-type {
+    float: right;
+    color: #5F88EB;
+    font-weight: 900;
+}
+
+.rankings .client .card h4 {
+    margin-right: .5em;
+}
+
+.rankings .client .card h3 {
+    margin-left: .5em;
+}

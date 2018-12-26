@@ -1,0 +1,65 @@
+.header {
+    height: 50px;
+    padding: .65em 10px;
+    box-sizing: border-box;
+}
+
+.header img {
+	display: inline-block;
+	height: 20px;
+}
+
+.header .menu {
+    margin: .2em 0;
+}
+
+.header .profile {
+    float: right;
+    color: #bdc1ce;
+	font-size: .875em;
+}
+
+.header .profile .inbox {
+    display: block;
+	float: left;
+	margin: .24em 0;
+}
+
+.header .profile .inbox img:last-of-type {
+	width: 10px;
+	margin: 0 .5em;
+}
+
+.header .profile .inbox img:last-of-type {
+	width: 10px;
+	margin: 0 .5em;
+}
+
+.header .profile .member {
+    float: right;
+}
+
+.header .profile .member span {
+	float: left;
+	margin: .4em .5em;
+}
+
+.header .profile .member img {
+	width: 30px;
+	height: 30px;
+}
+
+@media only screen and (min-width: 374px) {
+	
+	.header {
+		padding: .65em 15px;
+	}
+}
+
+@media only screen and (min-width: 767px) {
+	
+	.header {
+		height: 60px;
+		padding: 1em 20px;
+	}
+}

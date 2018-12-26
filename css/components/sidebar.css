@@ -1,0 +1,26 @@
+.sidebar {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 50px;
+	background-color: blue;
+}
+
+.sidebar a {
+	display: inline-block;
+	text-align: center;
+	width: 15.63%;
+	height: 50px;
+	padding: .8em;
+	box-sizing: border-box;
+}
+
+.sidebar a img {
+    height: 20px;
+}
+
+.sidebar a.active {
+    background-color: #5F88EB;
+    border-bottom: 5px solid #bdc1ce;
+}
