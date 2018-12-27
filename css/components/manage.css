@@ -57,7 +57,6 @@
 }
 
 .manage .weekly {
-    width: 680px;
     background-color: #fff;
     margin-bottom: 10px;
     padding: 2em;
@@ -238,7 +237,6 @@
     }
     
     .manage .weekly {
-        width: auto;
         margin-bottom: 20px;
     }
     
