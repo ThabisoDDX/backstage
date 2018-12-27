@@ -59,7 +59,7 @@
 .manage .weekly {
     width: 680px;
     background-color: #fff;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     padding: 2em;
     border-radius: 10px;
 }
@@ -84,9 +84,14 @@
  }
 
  .manage .weekly .graph {
-    width: 680px;
+    width: 100%;
     margin-top: 1em;
  }
+
+ .manage .weekly .graph img {
+    min-width: 600px;
+ }
+
 
  .rankings .sales header h2 {
      display: inline-block;
@@ -94,17 +99,16 @@
  }
 
  .rankings .sales {
-     margin-bottom: 15px;
+    margin-bottom: 10px;
  }
 
  .rankings .sales header h4 {
-     float: right;
-     margin-top: .2em;
+    float: right;
+    margin-top: .25em;
  }
 
- .rankings .sales .card {
-    margin-top: 15px;
-    padding: 2em;
+.rankings .sales .card {
+	padding: 1.23em 2em;
 	background-color: #fff;
 	border-radius: 10px;
 	overflow: hidden;
@@ -135,9 +139,14 @@
 }
 
 .rankings .client {
+	box-sizing: border-box;
 	background-color: #fff;
-	padding: 2em;
+	padding: 2em 2em;
 	border-radius: 10px;
+}
+
+.rankings .sales header {
+    margin-bottom: 10px;
 }
 
 .rankings .client header h2 {
@@ -155,7 +164,7 @@
 
 .rankings .client .card {
     overflow: hidden;
-    margin: 2em 0;
+    margin: 10px 0;
 }
 
 .rankings .client .card li {
@@ -175,3 +184,111 @@
 .rankings .client .card h3 {
     margin-left: .5em;
 }
+
+@media only screen and (min-width: 374px) {
+    
+    .manage .overall {
+        margin-bottom: 15px;
+    }
+    
+    .manage .overall {
+        margin-bottom: 15px;
+    }
+
+    .manage .inventory .stat {
+        margin-bottom: 15px;
+    }
+
+    .manage .weekly {
+        margin-bottom: 15px;
+    }
+    
+    .rankings .sales header {
+        margin-bottom: 15px;
+    }
+
+    .rankings .sales .card {
+        margin-bottom: 15px;
+    }
+
+    .rankings .client .card {
+        margin: 15px 0;
+    }
+}
+
+@media only screen and (min-width: 767px) {
+        
+    .manage .overall {
+        margin-bottom: 20px;
+        padding: 0 2em;
+    }
+
+    .manage .overall div {
+        width: 24.5%;
+        margin: 2em 0;
+    }
+
+    .manage .inventory .stat {
+        display: inline-block;
+        width: 48.53%;
+        margin-bottom: 20px;
+    }
+
+    .manage .inventory div:last-of-type {
+        float: right;
+    }
+    
+    .manage .weekly {
+        width: auto;
+        margin-bottom: 20px;
+    }
+    
+    .rankings {
+        margin-top: 20px;
+    }
+    .rankings article {
+        width: 48.53%;
+        display: inline-block;
+    }
+
+    .rankings .sales header {
+        margin-bottom: 20px;
+    }
+
+    .rankings .sales .card {
+        margin-bottom: 20px;
+    }
+    
+    .rankings .client {
+        float: right;
+    }
+
+    .rankings .client .card {
+        margin: 20px 0;
+    }
+}
+
+@media only screen and (min-width: 1279px) {
+	
+	.manage {
+        float: left;
+        width: 65.8%;
+    }
+
+    .rankings {
+        float: right;
+        width: 32.5%;
+        margin-top: -37px;
+    }
+
+    .rankings .sales header {
+        margin-bottom: 14px;
+    }
+
+    .rankings .sales,
+    .rankings .client {
+        width: 100%;
+        margin-bottom: 0;
+    }
+}
+
