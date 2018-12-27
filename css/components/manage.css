@@ -144,7 +144,7 @@
 .rankings .client {
 	box-sizing: border-box;
 	background-color: #fff;
-	padding: 2em 2em;
+	padding: 2em;
 	border-radius: 10px;
 }
 
@@ -167,7 +167,7 @@
 
 .rankings .client .card {
     overflow: hidden;
-    margin: 10px 0;
+    padding: 1.23em 0;
 }
 
 .rankings .client .card li {
@@ -213,10 +213,6 @@
     .rankings .sales .card {
         margin-bottom: 15px;
     }
-
-    .rankings .client .card {
-        margin: 15px 0;
-    }
 }
 
 @media only screen and (min-width: 767px) {
@@ -261,13 +257,13 @@
     .rankings .sales .card {
         margin-bottom: 20px;
     }
+
+    .rankings .sales div:last-of-type {
+        margin-bottom: 16px;
+    }
     
     .rankings .client {
         float: right;
-    }
-
-    .rankings .client .card {
-        margin: 20px 0;
     }
 }
 
