@@ -177,14 +177,19 @@
     float: right;
     color: #5F88EB;
     font-weight: 900;
+    margin: 1.1em 0;
+}
+
+.rankings .client .card li img {
+    margin: 0 .5em;
 }
 
 .rankings .client .card h4 {
-    margin-right: .5em;
+    margin: 1.4em 0;
 }
 
 .rankings .client .card h3 {
-    margin-left: .5em;
+   margin: .85em 0;
 }
 
 @media only screen and (min-width: 374px) {
