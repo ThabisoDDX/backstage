@@ -1,14 +1,16 @@
 .userinfo .table {
-    text-align: center;
     margin-bottom: 10px;
-    padding: 1em;
+    padding: 2em 1.5em;
     background-color: #fff;
     border-radius: 10px;
     overflow: hidden;
 }
 
 .userinfo .table header {
-    display: inline-block;
+	display: inline-block;
+	text-align: center;
+    width: 33%;
+    margin-bottom: .5em;
 }
 
 .userinfo .table header img {
@@ -16,27 +18,34 @@
 	margin-bottom: .5em;
 }
 
+.userinfo .table header h4 {
+	width: 93%;
+}
+
 .userinfo .table .data {
 	float: right;
-	width: 64%;
+    width: 64.7%;
+}
+
+.userinfo .table .data h5 {
+    font-size: 12px;
+    font-weight: 400;
 }
 
 .userinfo .table .data ul {
-	font-size: 14px;
 	display: inline-block;
-	width: 45%;
-	height: 45px;
-	text-align: right;
-	margin-bottom: .5em;
-	margin-left: .5em;
-	padding: .5em .5em;
-	background-color: #EAECF2;
-	border-radius: 10px;
-	box-sizing: border-box;
+	width: 46%;
+	margin-bottom: 1.2em;
+	margin-left: .8em;
 }
 
 .userinfo .table .data ul:nth-last-child(even) {
     margin-left: 0;
+}
+
+.userinfo .table .data ul:nth-child(5),
+.userinfo .table .data ul:nth-child(6) {
+   margin-bottom: 0;
 }
 
 .userinfo .table .data ul:nth-child(4) li:last-of-type,
@@ -46,12 +55,12 @@
    font-weight: 900;
 }
 
+
 .userinfo .table button {
 	padding: .8em 2.2em;
 	border-radius: 25px;
 	border-style: none;
 	font-weight: 600;
-	margin-top: 3.18em;
 	background-color: #3C78FE;
 	color: #EAECF2;
 }
@@ -60,6 +69,10 @@
 
     .userinfo .table {
         margin-bottom: 15px;
+    }
+
+    .userinfo .table header {
+        width: 28%;
     }
 }
 
@@ -70,96 +83,98 @@
     }
 
     .userinfo .table header img {
-        width: 80px;
         margin-bottom: 1em;
     }
 
     .userinfo .table header {
-        width: 30%;
-     }
+        width: 37%;
+        margin-bottom: 1em;
+    }
 
     .userinfo .table header h4 {
-       font-size: 24px;
+        width: auto;
+    }
+
+    .userinfo .table .data {
+        width: 50.7%;
     }
     
     .userinfo .table .data ul {
         font-size: 18px;
-        height: 60px;
         margin-bottom: 1em;
         margin-left: 1em;
-        padding: .65em .5em;
+    }
+
+    .userinfo .table button {
+        margin: 0 6em;
     }
 
 }
 
 @media only screen and (min-width: 1279px) {
-    
+
+    .userinfo {
+        margin-top: 6em;
+    }
+
     .userinfo .table {
-        text-align: center;
-        padding: 1em 2em;
+        height: 80px;
+        padding: .65em 2em;
+        box-sizing: border-box;
         overflow: visible;
     }
-
+    
     .userinfo .table header {
         float: left;
-        width: auto;
+        width: 25%;
         height: 42px;
+        margin: .6em 0;
+        text-align: left;
     }
 
-    
     .userinfo .table header img {
-        float: left;
-        width: 42px;
         margin-bottom: 0;
+        float: left;
     }
 
     .userinfo .table header h4 {
         display: inline-block;
-        font-size: 14px;
+        width: auto;
         margin: 1em;
-     }
-
-     .userinfo .table .data {
+    }
+    
+    .userinfo .table .data {
+        float: none;
         display: inline-block;
-        float: none;
-        width: auto;
-    }
-
-     .userinfo .table .data ul {
-        position: relative;
-        float: none;
-        text-align: left;
-        width: auto;
-        height: auto;
+        width: 65%;
+    }    
+    
+    .userinfo .table .data ul {
         margin-bottom: 0;
+        width: auto;
         margin-right: 2em;
-        padding: 0;
-        background-color: transparent;
+        margin-left: 0;
     }
-
+    
     .userinfo .table .data li:first-of-type {
-       display: none;
+        visibility: hidden;
     }
 
     .userinfo article:first-of-type .data ul li:first-of-type {
-        display: block;
-        position: absolute;
-        top: -4em;
+        position: relative;
+        top: -3em;
+        visibility: visible;
     }
 
     .userinfo .table .data li:last-of-type {
         height: 42px;
-        padding: .75em 0;
+        padding: .4em 0;
         box-sizing: border-box;
     }
 
-
     .userinfo .table button {
         float: right;
-    }
-
-    .userinfo .table button {
-        margin-top: .2em;
+        margin: .9em 0;
     }
 
 }
